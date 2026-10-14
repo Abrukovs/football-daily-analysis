@@ -1,0 +1,26 @@
+# Secrets and local credentials
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Manus/local service configuration
+.config/
+.cache/
+.local/
+
+# Python and editor noise
+__pycache__/
+*.py[cod]
+.vscode/
+.idea/
+.DS_Store
+
+# Temporary research exports and browser artifacts
+screenshots/
+page_texts/
+upload/
+*.tmp
+*.log

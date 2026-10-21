@@ -1,0 +1,39 @@
+name: Generate daily football analysis
+
+on:
+  # 02:00 UTC = 05:00 Europe/Moscow.
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate report
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          ODDS_SPORT_KEYS: ${{ vars.ODDS_SPORT_KEYS }}
+          MIN_ODDS: "1.50"
+          MAX_PICKS: "2"
+          WINDOW_HOURS: "24"
+        run: python3 football_analysis.py daily
+
+      - name: Commit report and journal
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add daily_football_report_*.md post_match_journal.csv
+          if git diff --cached --quiet; then
+            echo "No report changes to commit."
+          else
+            git commit -m "Создать ежедневный футбольный отчёт"
+            git push
+          fi

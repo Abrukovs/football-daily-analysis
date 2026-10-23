@@ -1,16 +1,27 @@
 date,match,tournament,market,result
+2026-09-01,Austria Wien Women — Brann Women,"UEFA Women's Champions League, квалификация, третий раунд",ML: Brann Women,PENDING
+2026-09-02,Sanfrecce Hiroshima — Nagoya Grampus,"Япония, J.League",ОЗ : да,PENDING
+2026-09-03,Palermo — Mantova,"Италия, Coppa Italia, 1/32 финала",ML: Palermo,PENDING
+2026-09-04,Ipswich Town — Liverpool,"Англия, Premier League",ML: Liverpool,PENDING
+2026-09-05,Inter Milan — Napoli,"Италия, Serie A",ML: Inter Milan,PENDING
+2026-09-05,Roma — Atalanta,"Италия, Serie A",ML: Roma,PENDING
 2026-10-07,Mexico — Chile,International Friendlies,ML: Mexico,PENDING
-2026-10-08,Vitoria — Chapecoense,Brazil Serie A,ML: Vitoria,PENDING
-2026-10-08,Santos — Flamengo,Brazil Serie A,BTTS: Yes,PENDING
+2026-10-07,Vitoria — Chapecoense,"Brazil, Campeonato Brasileiro Serie A, 29-й тур",ML: Vitoria,PENDING
 2026-10-08,HJK Helsinki — VPS Vaasa,Finland Veikkausliiga,ML: HJK Helsinki,PENDING
+2026-10-08,Santos — Flamengo,Brazil Serie A,BTTS: Yes,PENDING
+2026-10-08,Vitoria — Chapecoense,Brazil Serie A,ML: Vitoria,PENDING
 2026-10-09,Braga — Sporting,Portugal Primeira Liga,BTTS: Yes,PENDING
+2026-10-09,Braga — Sporting CP,"Portugal, Primeira Liga, 8-й тур",BTTS: Yes,PENDING
 2026-10-10,Arsenal — Leeds,Premier League,BTTS: No,PENDING
+2026-10-10,Arsenal — Leeds United,"England, Premier League, 6-й тур",BTTS: No,PENDING
 2026-10-11,Liverpool — Manchester City,Premier League,ML: Manchester City,PENDING
 2026-10-13,Atlético Madrid — Manchester United,UEFA Champions League,ML: Atlético Madrid,PENDING
 2026-10-13,Villarreal — Napoli,UEFA Champions League,Over 2.5,PENDING
 2026-10-14,Aston Villa — Fenerbahce,UEFA Champions League,ML: Aston Villa,PENDING
 2026-10-15,Hajduk Split — Ajax,UEFA Conference League,Over 2.5,PENDING
 2026-10-15,Lech Poznan — Bayer Leverkusen,UEFA Europa League,Over 2.5,PENDING
+2026-10-17,Werder Bremen — Paderborn,"Бундеслига, 6-й тур",ML: Werder Bremen,PENDING
+2026-10-18,Bayer Leverkusen — Freiburg,"Бундеслига, 6-й тур",ML: Bayer Leverkusen,PENDING
 2026-10-20,Fenerbahce — Slavia Prague,UEFA Champions League,Over 2.5,PENDING
 2026-10-20,Porto — PSV Eindhoven,UEFA Champions League,ML: Porto,PENDING
 2026-10-22,Dinamo Zagreb — NEC Nijmegen,UEFA Europa League,ML: Dinamo Zagreb,PENDING

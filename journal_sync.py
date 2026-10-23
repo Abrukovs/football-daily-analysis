@@ -79,6 +79,7 @@ def parse_reports() -> list[dict[str, str]]:
 
 def canonical_market(value: str) -> str:
     value = value.replace("—", ":").replace("–", ":")
+    value = re.sub(r"\s*:\s*", ": ", value)
     value = re.sub(r"\s+", " ", value).strip().rstrip(".")
     low = value.lower()
     if "тб 2,5" in low or "over 2.5" in low:

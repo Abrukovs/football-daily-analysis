@@ -63,6 +63,7 @@ def parse_reports() -> list[dict[str, str]]:
                 market_b = re.search(r"^- \*\*Рынок:\*\*\s*(.+?)\s*$", block, re.MULTILINE)
                 if head and tournament_b and market_b:
                     title = head.group(1).strip()
+                    title = re.sub(r"^Вариант\s+\d+\s+[—–-]\s*", "", title, flags=re.I).strip()
                     title = re.sub(r"\s*:\s*(ML|ТБ|ТМ|ОЗ).*$", "", title).strip()
                     match_text = title
                     tournament_text = tournament_b.group(1).strip().rstrip(".")

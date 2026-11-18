@@ -39,15 +39,15 @@ date,match,tournament,market,result
 2026-11-06,Toulouse — Strasbourg,Лига 1 Франции,ОЗ: обе команды забьют,WON
 2026-11-07,Nottingham Forest — Manchester City,Премьер-лига Англии,ML: Manchester City,LOST
 2026-11-08,Fiorentina — Juventus,"Серия A Италии, 11-й тур",ОЗ: обе команды забьют,WON
-2026-11-08,Lens — Marseille,"Лига 1 Франции, 10-й тур",Under 3.5,PENDING
-2026-11-12,Turkey — Belgium,"Лига наций УЕФА, League A, Group A1, 5-й тур",ML: Belgium,PENDING
-2026-11-13,Bulgaria — Iceland,"Лига наций УЕФА, League C, Group C4, 5-й тур",ML: Iceland,PENDING
-2026-11-13,Slovenia — Switzerland,"Лига наций УЕФА, League B, Group B1, 5-й тур",ML: Switzerland,PENDING
-2026-11-14,Austria — Ireland,"Лига наций УЕФА, League B, Group B3, 5-й тур",ML: Austria,PENDING
-2026-11-14,Portugal — Denmark,"Лига наций УЕФА, League A, Group A4, 5-й тур",ML: Portugal,PENDING
-2026-11-15,Belgium — Italy,"Лига наций УЕФА, League A, Group A1, 6-й тур",Over 2.5,PENDING
-2026-11-15,Spain — England,"Лига наций УЕФА, League A, Group A3, 6-й тур",ML: Spain,PENDING
-2026-11-16,Switzerland — Scotland,"Лига наций УЕФА, League B, Group B1, 6-й тур",ML: Switzerland,PENDING
-2026-11-17,Bosnia-Herzegovina — Romania,"Лига наций УЕФА, League B, Group B4, 6-й тур",ML: Bosnia-Herzegovina,PENDING
+2026-11-08,Lens — Marseille,"Лига 1 Франции, 10-й тур",Under 3.5,WON
+2026-11-12,Turkey — Belgium,"Лига наций УЕФА, League A, Group A1, 5-й тур",ML: Belgium,WON
+2026-11-13,Bulgaria — Iceland,"Лига наций УЕФА, League C, Group C4, 5-й тур",ML: Iceland,WON
+2026-11-13,Slovenia — Switzerland,"Лига наций УЕФА, League B, Group B1, 5-й тур",ML: Switzerland,LOST
+2026-11-14,Austria — Ireland,"Лига наций УЕФА, League B, Group B3, 5-й тур",ML: Austria,WON
+2026-11-14,Portugal — Denmark,"Лига наций УЕФА, League A, Group A4, 5-й тур",ML: Portugal,LOST
+2026-11-15,Belgium — Italy,"Лига наций УЕФА, League A, Group A1, 6-й тур",Over 2.5,WON
+2026-11-15,Spain — England,"Лига наций УЕФА, League A, Group A3, 6-й тур",ML: Spain,LOST
+2026-11-16,Switzerland — Scotland,"Лига наций УЕФА, League B, Group B1, 6-й тур",ML: Switzerland,WON
+2026-11-17,Bosnia-Herzegovina — Romania,"Лига наций УЕФА, League B, Group B4, 6-й тур",ML: Bosnia-Herzegovina,WON
 2026-11-18,Alcoyano — Mallorca,"Кубок Испании, первый раунд",ML: Mallorca,PENDING
 2026-11-18,Badajoz — Tenerife,"Кубок Испании, первый раунд",BTTS: Yes,PENDING

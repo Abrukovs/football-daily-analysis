@@ -18,14 +18,21 @@ jobs:
 
       - name: Settle finished predictions
         env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+          THESPORTSDB_KEY: ${{ secrets.THESPORTSDB_KEY }}
         run: python3 journal_sync.py settle
 
       - name: Generate report
+        id: generate_report
+        # Continue so settled rows can still be synced and committed if odds
+        # credentials are missing or the free odds quota is exhausted.
+        continue-on-error: true
         env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
-          ODDS_SPORT_KEYS: ${{ vars.ODDS_SPORT_KEYS }}
+          ODDS_SPORT_KEYS: ${{ vars.ODDS_SPORT_KEYS || 'soccer_epl,soccer_uefa_champs_league,soccer_uefa_europa_league,soccer_uefa_europa_conference_league,soccer_spain_la_liga,soccer_italy_serie_a,soccer_germany_bundesliga,soccer_france_ligue_one' }}
+          ODDS_MARKETS: h2h,totals
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+          THESPORTSDB_KEY: ${{ secrets.THESPORTSDB_KEY }}
           MIN_ODDS: "1.50"
           MAX_PICKS: "2"
           WINDOW_HOURS: "24"
@@ -38,10 +45,16 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add daily_football_report_*.md post_match_journal.csv bets_journal.csv journal_sync.py
+          git add daily_football_report_*.md post_match_journal.csv bets_journal.csv
           if git diff --cached --quiet; then
             echo "No report changes to commit."
           else
             git commit -m "Создать ежедневный футбольный отчёт"
             git push
           fi
+
+      - name: Preserve report-generation failure status
+        if: steps.generate_report.outcome == 'failure'
+        run: |
+          echo "::error::Daily report generation failed; results were synced first. See the Generate report step for details."
+          exit 1

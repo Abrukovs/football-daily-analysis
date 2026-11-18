@@ -9,16 +9,16 @@ date,match,tournament,market,result
 2026-10-07,Vitoria — Chapecoense,"Brazil, Campeonato Brasileiro Serie A, 29-й тур",ML: Vitoria,WON
 2026-10-08,HJK Helsinki — VPS Vaasa,Finland Veikkausliiga,ML: HJK Helsinki,WON
 2026-10-08,Santos — Flamengo,Brazil Serie A,BTTS: Yes,WON
-2026-10-08,Vitoria — Chapecoense,Brazil Serie A,ML: Vitoria,PENDING
-2026-10-09,Braga — Sporting,Portugal Primeira Liga,BTTS: Yes,PENDING
-2026-10-09,Braga — Sporting CP,"Portugal, Primeira Liga, 8-й тур",BTTS: Yes,PENDING
-2026-10-10,Arsenal — Leeds,Premier League,BTTS: No,PENDING
-2026-10-10,Arsenal — Leeds United,"England, Premier League, 6-й тур",BTTS: No,PENDING
-2026-10-11,Liverpool — Manchester City,Premier League,ML: Manchester City,PENDING
-2026-10-13,Atlético Madrid — Manchester United,UEFA Champions League,ML: Atlético Madrid,PENDING
-2026-10-13,Villarreal — Napoli,UEFA Champions League,Over 2.5,PENDING
-2026-10-14,Aston Villa — Fenerbahce,UEFA Champions League,ML: Aston Villa,PENDING
-2026-10-15,Hajduk Split — Ajax,UEFA Conference League,Over 2.5,PENDING
+2026-10-08,Vitoria — Chapecoense,Brazil Serie A,ML: Vitoria,WON
+2026-10-09,Braga — Sporting,Portugal Primeira Liga,BTTS: Yes,WON
+2026-10-09,Braga — Sporting CP,"Portugal, Primeira Liga, 8-й тур",BTTS: Yes,WON
+2026-10-10,Arsenal — Leeds,Premier League,BTTS: No,LOST
+2026-10-10,Arsenal — Leeds United,"England, Premier League, 6-й тур",BTTS: No,LOST
+2026-10-11,Liverpool — Manchester City,Premier League,ML: Manchester City,WON
+2026-10-13,Atlético Madrid — Manchester United,UEFA Champions League,ML: Atlético Madrid,WON
+2026-10-13,Villarreal — Napoli,UEFA Champions League,Over 2.5,WON
+2026-10-14,Aston Villa — Fenerbahce,UEFA Champions League,ML: Aston Villa,WON
+2026-10-15,Hajduk Split — Ajax,UEFA Conference League,Over 2.5,WON
 2026-10-15,Lech Poznan — Bayer Leverkusen,UEFA Europa League,Over 2.5,PENDING
 2026-10-17,Werder Bremen — Paderborn,"Бундеслига, 6-й тур",ML: Werder Bremen,PENDING
 2026-10-18,Bayer Leverkusen — Freiburg,"Бундеслига, 6-й тур",ML: Bayer Leverkusen,PENDING

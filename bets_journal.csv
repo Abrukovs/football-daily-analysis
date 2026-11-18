@@ -19,16 +19,16 @@ date,match,tournament,market,result
 2026-10-13,Villarreal — Napoli,UEFA Champions League,Over 2.5,WON
 2026-10-14,Aston Villa — Fenerbahce,UEFA Champions League,ML: Aston Villa,WON
 2026-10-15,Hajduk Split — Ajax,UEFA Conference League,Over 2.5,WON
-2026-10-15,Lech Poznan — Bayer Leverkusen,UEFA Europa League,Over 2.5,PENDING
-2026-10-17,Werder Bremen — Paderborn,"Бундеслига, 6-й тур",ML: Werder Bremen,PENDING
-2026-10-18,Bayer Leverkusen — Freiburg,"Бундеслига, 6-й тур",ML: Bayer Leverkusen,PENDING
-2026-10-20,Fenerbahce — Slavia Prague,UEFA Champions League,Over 2.5,PENDING
-2026-10-20,Porto — PSV Eindhoven,UEFA Champions League,ML: Porto,PENDING
-2026-10-22,Dinamo Zagreb — NEC Nijmegen,UEFA Europa League,ML: Dinamo Zagreb,PENDING
-2026-10-23,Ipswich Town — Nottingham Forest,Premier League,Over 2.5,PENDING
-2026-10-24,Aston Villa — Manchester City,"Английская Премьер-лига, 8-й тур",ML: Manchester City,PENDING
-2026-10-24,Chelsea — Tottenham Hotspur,"Английская Премьер-лига, 8-й тур",ML: Chelsea,PENDING
-2026-10-25,Liverpool — Brighton & Hove Albion,"Английская Премьер-лига, 8-й тур",ML: Liverpool,PENDING
+2026-10-15,Lech Poznan — Bayer Leverkusen,UEFA Europa League,Over 2.5,WON
+2026-10-17,Werder Bremen — Paderborn,"Бундеслига, 6-й тур",ML: Werder Bremen,LOST
+2026-10-18,Bayer Leverkusen — Freiburg,"Бундеслига, 6-й тур",ML: Bayer Leverkusen,WON
+2026-10-20,Fenerbahce — Slavia Prague,UEFA Champions League,Over 2.5,WON
+2026-10-20,Porto — PSV Eindhoven,UEFA Champions League,ML: Porto,LOST
+2026-10-22,Dinamo Zagreb — NEC Nijmegen,UEFA Europa League,ML: Dinamo Zagreb,LOST
+2026-10-23,Ipswich Town — Nottingham Forest,Premier League,Over 2.5,LOST
+2026-10-24,Aston Villa — Manchester City,"Английская Премьер-лига, 8-й тур",ML: Manchester City,LOST
+2026-10-24,Chelsea — Tottenham Hotspur,"Английская Премьер-лига, 8-й тур",ML: Chelsea,LOST
+2026-10-25,Liverpool — Brighton & Hove Albion,"Английская Премьер-лига, 8-й тур",ML: Liverpool,WON
 2026-10-25,Marseille — Le Havre,"Лига 1, 8-й тур",ML: Marseille,PENDING
 2026-10-26,Neftchi Fargona — Al Ittihad,"Лига чемпионов АФК Elite, западная зона, этап лиги",ML: Al Ittihad,PENDING
 2026-11-04,Borussia Dortmund — Real Betis,"Лига чемпионов УЕФА, этап лиги, 4-й тур",ML: Borussia Dortmund,PENDING
